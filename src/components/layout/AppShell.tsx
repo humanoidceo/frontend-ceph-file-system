@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { Header } from '../Header';
+import { Header } from '../../pages/Header';
 import { Sidebar, type SidebarItem } from './Sidebar';
 import type { CurrentUser } from '../../types/auth';
 

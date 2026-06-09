@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import { AdminOverview } from '../components/admin/AdminOverview';
 import { AppShell } from '../components/layout/AppShell';
 import { SectionHeader } from '../components/layout/SectionHeader';
-import { ChunkUpload } from '../components/ChunkUpload';
-import { DepartmentQuotaCard } from '../components/DepartmentQuotaCard';
-import { DepartmentManagement } from '../components/DepartmentManagement';
-import { FileTable } from '../components/FileTable';
-import { Header } from '../components/Header';
-import { LoginPanel } from '../components/LoginPanel';
+import { ChunkUpload } from './ChunkUpload';
+import { DepartmentQuotaCard } from './DepartmentQuotaCard';
+import { DepartmentManagement } from './DepartmentManagement';
+import { FileTable } from './FileTable';
+import { Header } from './Header';
+import { LoginPanel } from './LoginPanel';
 import { UserOverview } from '../components/user/UserOverview';
-import { UserManagement } from '../components/UserManagement';
-import { UserTransferQuotaCard } from '../components/UserTransferQuotaCard';
+import { UserManagement } from './UserManagement';
+import { UserTransferQuotaCard } from './UserTransferQuotaCard';
 import {
   ApiError,
   createPublicLink,

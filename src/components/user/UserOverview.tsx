@@ -4,8 +4,8 @@ import { formatDateTime } from '../../utils/dateTime';
 import { formatBytes } from '../../utils/formatBytes';
 import { SectionHeader } from '../layout/SectionHeader';
 import { StatCard } from '../layout/StatCard';
-import { DepartmentQuotaCard } from '../DepartmentQuotaCard';
-import { UserTransferQuotaCard } from '../UserTransferQuotaCard';
+import { DepartmentQuotaCard } from '../../pages/DepartmentQuotaCard';
+import { UserTransferQuotaCard } from '../../pages/UserTransferQuotaCard';
 
 interface UserOverviewProps {
   user: CurrentUser;
